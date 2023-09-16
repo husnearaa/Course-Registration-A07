@@ -1,82 +1,91 @@
 [
     {
+         "id:": "1",
         "image": "https://i.ibb.co/9ywBH1p/Rectangle-1.png",
-        "course_name": "Introduction to C Programming",
-        "course_details": "Learn the fundamentals of the C programming language, including data types, control structures, functions, and memory management.",
-        "price": "15000",
+        "course_name": "C Programming",
+        "course_details": "The C programming language, including data types, control structures and functions.",
+        "price": "$150.99",
         "credit": "1hr",
         "button": "Select"
       },
 
       {
+        "id:": "2",
         "image": "https://i.ibb.co/prLzNHQ/Rectangle-2.png",
         "course_name": "Introduction to Algorithms",
-        "course_details": "This course provides a comprehensive introduction to algorithms, covering a wide range of fundamental algorithms and data structures.",
-        "price": "25000",
+        "course_details": "Introduction to algorithms, covering a wide range of fundamental algorithms and data structures.",
+        "price": "$250.99",
         "credit": "2hr",
         "button": "Select"
       },
 
       {
+        "id:": "3",
         "image": "https://i.ibb.co/2v3XKvT/Rectangle-3.png",
         "course_name": "Introduction to C++ for DSA",
-        "course_details": "In this course you will learn key C++ concepts, data structures, and algorithms commonly used in computer science and competitive programming.",
-        "price": "10000",
+        "course_details": "In this course C++ concepts, data structures, algorithms and competitive programming.",
+        "price": "$100.99",
         "credit": "10hr",
         "button": "Select"
       },
 
       {
+        "id:": "4",
         "image": "https://i.ibb.co/3Fp3Jkp/Rectangle-4.png",
         "course_name": "Basic Data Structures",
-        "course_details": "In this course,you will learn about arrays, linked lists, stacks, queues, and basic tree structures.",
-        "price": "35000",
+        "course_details": "This course is about arrays, linked lists, stacks, queues, and basic tree structures.",
+        "price": "$350.99",
         "credit": "5hr",
         "button": "Select"
       },
 
       {
+        "id:": "5",
         "image": "https://i.ibb.co/XWNcxF5/Rectangle-5.png",
         "course_name": "Introduction to OOP Python",
-        "course_details": "This course is designed how to create and use classes and objects, encapsulate data, and implement inheritance and polymorphism.",
-        "price": "19000",
+        "course_details": "This course is designed use of classes and objects, encapsulate data, and implement inheritance and polymorphism.",
+        "price": "$190.99",
         "credit": "5hr",
         "button": "Select"
       },
 
       {
+        "id:": "6",
         "image": "https://i.ibb.co/nPYHcwM/Rectangle-6.png",
         "course_name": "Software Engineering",
         "course_details": "This comprehensive course covers the principles, practices, and methodologies of software engineering.",
-        "price": "23000",
+        "price": "$230.99",
         "credit": "2hr",
         "button": "Select"
       },
 
       {
+        "id:": "7",
         "image": "https://i.ibb.co/hMz625J/Rectangle-7.png",
         "course_name": "AWS, Cloud Computing",
-        "course_details": "In this course you will learn how to set up and manage cloud infrastructure, deploy applications, and leverage AWS services such as EC2, S3, RDS, and more.",
-        "price": "31000",
+        "course_details": "This course covering set up and manage cloud infrastructure, deploy applications, and leverage AWS services such as EC2, S3, RDS, and more.",
+        "price": "$310.99",
         "credit": "5hr",
         "button": "Select"
       },
 
       {
+        "id:": "8",
         "image": "https://i.ibb.co/Fmbp8tn/Rectangle-8.png",
         "course_name": "Database (MySQL)",
-        "course_details": "This course offers how to design and create relational databases, perform CRUD (Create, Read, Update, Delete) operations, write SQL queries, and optimize database performance.",
-        "price": "19000",
+        "course_details": "This course covering databases, perform CRUD operations, write SQL queries, and optimize database performance.",
+        "price": "$165.99",
         "credit": "4hr",
         "button": "Select"
       },
 
 
       {
+        "id:": "9",
         "image": "https://i.ibb.co/g9822rF/Rectangle-9.png",
         "course_name": "Problem-Solving Part",
         "course_details": "This course is dedicated to enhancing your problem-solving skills in various domains.",
-        "price": "22000",
+        "price": "$220.99",
         "credit": "2hr",
         "button": "Select"
       }     

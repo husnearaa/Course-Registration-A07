@@ -9,9 +9,13 @@ function App() {
 
   return (
     <>
-      
-     <Header></Header>
+   <div>
+   
+    <div>
+    <Header></Header>
      <Courses></Courses>
+    </div>
+   </div>
       
     </>
   )
