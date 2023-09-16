@@ -1,6 +1,8 @@
 
 
 import './App.css'
+import Courses from './components/Courses/Courses'
+import Header from './components/header/Header'
 
 function App() {
   
@@ -8,7 +10,8 @@ function App() {
   return (
     <>
       
-      <h1 className='text-center text-5xl'>Course Registration</h1>
+     <Header></Header>
+     <Courses></Courses>
       
     </>
   )
