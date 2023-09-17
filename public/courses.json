@@ -4,7 +4,7 @@
         "image": "https://i.ibb.co/9ywBH1p/Rectangle-1.png",
         "course_name": "C Programming",
         "course_details": "The C programming language, including data types, control structures and functions and memory management.",
-        "price": "150.99",
+        "price": "$150.99",
         "credit": 6,
         "button": "Select"
       },
@@ -14,7 +14,7 @@
         "image": "https://i.ibb.co/prLzNHQ/Rectangle-2.png",
         "course_name": "Introduction to Algorithms",
         "course_details": "Algorithms covering a wide range of fundamental algorithms and data structures.",
-        "price": "250.99",
+        "price": "$250.99",
         "credit": 2,
         "button": "Select"
       },
@@ -24,7 +24,7 @@
         "image": "https://i.ibb.co/2v3XKvT/Rectangle-3.png",
         "course_name": "Introduction to C++ for DSA",
         "course_details": "In this course C++ concepts, data structures, algorithms and competitive programming.",
-        "price": "100.99",
+        "price": "$100.99",
         "credit": 7,
         "button": "Select"
       },
@@ -34,7 +34,7 @@
         "image": "https://i.ibb.co/3Fp3Jkp/Rectangle-4.png",
         "course_name": "Basic Data Structures",
         "course_details": "This course you will learn about arrays, linked lists, stacks, queues, and basic tree structures.",
-        "price": "350.99",
+        "price": "$350.99",
         "credit": 5,
         "button": "Select"
       },
@@ -44,7 +44,7 @@
         "image": "https://i.ibb.co/XWNcxF5/Rectangle-5.png",
         "course_name": "Introduction to OOP Python",
         "course_details": "This course is designed use of classes and objects, implement inheritance and polymorphism.",
-        "price": "190.99",
+        "price": "$190.99",
         "credit": 5,
         "button": "Select"
       },
@@ -54,8 +54,8 @@
         "image": "https://i.ibb.co/nPYHcwM/Rectangle-6.png",
         "course_name": "Software Engineering",
         "course_details": "This comprehensive course covers the principles, practices, and methodologies of software engineering.",
-        "price": "230.99",
-        "credit": 2,
+        "price": "$230.99",
+        "credit": 9,
         "button": "Select"
       },
 
@@ -64,7 +64,7 @@
         "image": "https://i.ibb.co/hMz625J/Rectangle-7.png",
         "course_name": "AWS, Cloud Computing",
         "course_details": "This course covering set up and manage cloud infrastructure ,deploy applications, and leverage AWS services.",
-        "price": "310.99",
+        "price": "$310.99",
         "credit": 5,
         "button": "Select"
       },
@@ -74,7 +74,7 @@
         "image": "https://i.ibb.co/Fmbp8tn/Rectangle-8.png",
         "course_name": "Database (MySQL)",
         "course_details": "This course covering perform of CRUD operations, write SQL queries, and optimize database performance.",
-        "price": "165.99",
+        "price": "$165.99",
         "credit": 4,
         "button": "Select"
       },
@@ -85,7 +85,7 @@
         "image": "https://i.ibb.co/g9822rF/Rectangle-9.png",
         "course_name": "Problem-Solving Part",
         "course_details": "This course is dedicated to enhancing your problem-solving skills.It covers wide range of problems and challenges",
-        "price": "220.99",
+        "price": "$220.99",
         "credit": 2,
         "button": "Select"
       }     
