@@ -2,7 +2,7 @@
 
 import './App.css'
 import Courses from './components/Courses/Courses'
-import Header from './components/header/Header'
+
 
 function App() {
   
@@ -12,7 +12,6 @@ function App() {
    <div>
    
     <div>
-    <Header></Header>
      <Courses></Courses>
     </div>
    </div>

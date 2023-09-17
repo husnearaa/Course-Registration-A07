@@ -18,7 +18,7 @@ const Courses = () => {
 
     }, [])
 
-    const handleSelectCourse = (course) =>{
+    const handleSelectCourse = (course) => {
         setSelectedCourses([...selectedCourses, course]);
     }
 
@@ -27,23 +27,22 @@ const Courses = () => {
 
     return (
         <div className="max-w-7xl mx-auto">
-            <div className="flex mb-10">
-                <div className="flex flex-wrap gap-5">
+            <h1 className="font-bold text-4xl mb-10 text-center pt-8">Course Registration</h1>
+            <div className="flex justify-between">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-2/3 gap-x-48 gap-y-6">
                     {
                         allCourses.map(course => (
-                            <div key={course.id} className="card w-80 bg-base-100 shadow-xl">
-                                <figure className="px-6 pt-6">
-                                    <img src={course.image} className="rounded-xl" />
-                                </figure>
-                                <div className="card-body items-center text-center">
-                                    <h2 className="card-title text-xl font-bold">{course.course_name}</h2>
+                            <div key={course.id} className=" w-72 bg-base-100 p-4 rounded-xl">
+                                <img src={course.image} className="rounded-xl mb-4 h-36" />
+                                <div className="items-center text-center">
+                                    <h2 className=" text-xl font-bold">{course.course_name}</h2>
                                     <p>{course.course_details}</p>
-                                    <div className="flex space-x-20 mt-3">
+                                    <div className="flex space-x-14 mt-3">
                                         <p className="font-bold">Price:{course.price}</p>
                                         <p className="font-bold">Credit:{course.credit}</p>
                                     </div>
-                                    <div className="card w-80 pt-4">
-                                        <button onClick={()=>handleSelectCourse(course)} className="btn btn-primary px-16 mx-6">Select</button>
+                                    <div className=" w-72 pt-4">
+                                        <button onClick={() => handleSelectCourse(course)} className="mt-4 rounded-lg p-2 font-semibold text-lg bg-indigo-500 px-24 text-white mx-auto mr-6">Select</button>
                                     </div>
                                 </div>
                             </div>
@@ -51,8 +50,8 @@ const Courses = () => {
                     }
                 </div>
 
-                <div className="w-1/2">
-                 <Cart selectedCourses={selectedCourses}></Cart>
+                <div className="">
+                    <Cart selectedCourses={selectedCourses}></Cart>
                 </div>
             </div>
         </div>
@@ -60,4 +59,10 @@ const Courses = () => {
 };
 
 export default Courses;
+
+
+
+
+
+
 
