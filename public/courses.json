@@ -5,7 +5,7 @@
         "course_name": "C Programming",
         "course_details": "The C programming language, including data types, control structures and functions and memory management.",
         "price": "150.99",
-        "credit": "1",
+        "credit": 1,
         "button": "Select"
       },
 
@@ -15,7 +15,7 @@
         "course_name": "Introduction to Algorithms",
         "course_details": "Algorithms covering a wide range of fundamental algorithms and data structures.",
         "price": "250.99",
-        "credit": "2",
+        "credit": 2,
         "button": "Select"
       },
 
@@ -25,7 +25,7 @@
         "course_name": "Introduction to C++ for DSA",
         "course_details": "In this course C++ concepts, data structures, algorithms and competitive programming.",
         "price": "100.99",
-        "credit": "7",
+        "credit": 7,
         "button": "Select"
       },
 
@@ -35,7 +35,7 @@
         "course_name": "Basic Data Structures",
         "course_details": "This course you will learn about arrays, linked lists, stacks, queues, and basic tree structures.",
         "price": "350.99",
-        "credit": "5",
+        "credit": 5,
         "button": "Select"
       },
 
@@ -45,7 +45,7 @@
         "course_name": "Introduction to OOP Python",
         "course_details": "This course is designed use of classes and objects, implement inheritance and polymorphism.",
         "price": "190.99",
-        "credit": "5",
+        "credit": 5,
         "button": "Select"
       },
 
@@ -55,7 +55,7 @@
         "course_name": "Software Engineering",
         "course_details": "This comprehensive course covers the principles, practices, and methodologies of software engineering.",
         "price": "230.99",
-        "credit": "2",
+        "credit": 2,
         "button": "Select"
       },
 
@@ -65,7 +65,7 @@
         "course_name": "AWS, Cloud Computing",
         "course_details": "This course covering set up and manage cloud infrastructure ,deploy applications, and leverage AWS services.",
         "price": "310.99",
-        "credit": "5",
+        "credit": 5,
         "button": "Select"
       },
 
@@ -75,7 +75,7 @@
         "course_name": "Database (MySQL)",
         "course_details": "This course covering perform of CRUD operations, write SQL queries, and optimize database performance.",
         "price": "165.99",
-        "credit": "4",
+        "credit": 4,
         "button": "Select"
       },
 
@@ -86,7 +86,7 @@
         "course_name": "Problem-Solving Part",
         "course_details": "This course is dedicated to enhancing your problem-solving skills.It covers wide range of problems and challenges",
         "price": "220.99",
-        "credit": "2",
+        "credit": 2,
         "button": "Select"
       }     
       

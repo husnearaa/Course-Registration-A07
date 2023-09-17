@@ -28,29 +28,23 @@ const Courses = () => {
 
         let count = course.credit;
 
-        if(isExist){
-            return alert('already selected');
-        }
-        else{
-
+        if (isExist) {
+            alert('Course already selected');
+        } else {
             selectedCourses.forEach((item) => {
-                count +=  item.credit;
+                count += item.credit;
             });
-            //console.log(count)
-
+        
             const totalRemaining = 20 - count;
-           
-            if(count > 20){
-                return alert("sorry!, 20 credit has over");
-              
-            }
-            else{
+        
+            if (count > 20) {
+                alert("Sorry, you've exceeded the maximum credit limit (20)");
+            } else {
                 setTotalHours(count);
                 setRemaining(totalRemaining);
                 setSelectedCourses([...selectedCourses, course]);
             }
-        }  
-
+        }
     };
 
     
