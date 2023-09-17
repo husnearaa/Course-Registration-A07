@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Cart from "../Cart/Cart";
+import swal from 'sweetalert';
 
 
 
@@ -29,7 +30,8 @@ const Courses = () => {
         let count = course.credit;
 
         if (isExist) {
-            alert('Course already selected');
+            // alert('Course already selected');
+            swal("Sorry","Course Already taken", "warning");
         } else {
             selectedCourses.forEach((item) => {
                 count += item.credit;
@@ -38,7 +40,8 @@ const Courses = () => {
             const totalRemaining = 20 - count;
         
             if (count > 20) {
-                alert("Sorry, you've exceeded the maximum credit limit (20)");
+                // alert("Sorry, you've exceeded the maximum credit limit (20)");
+                swal("Sorry", "you've exceeded the maximum credit limit (20)", "warning");
             } else {
                 setTotalHours(count);
                 setRemaining(totalRemaining);
